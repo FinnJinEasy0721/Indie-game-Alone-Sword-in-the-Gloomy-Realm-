@@ -6,8 +6,7 @@
 场景文件的素材均来自https://itch.io 网站的开源作者
 
 ***特别感谢***
-itch开源游戏资产作者
-bilibili：@timothyqiu和@码客二十二
+itch开源游戏资产作者 和 bilibili：@timothyqiu和@码客二十二
 
 禁止以盈利为目的二次修改和分发
 
