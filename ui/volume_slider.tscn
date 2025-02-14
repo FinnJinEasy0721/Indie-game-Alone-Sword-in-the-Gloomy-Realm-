@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cvxoqtuyltmiu"]
+
+[ext_resource type="Theme" uid="uid://d2p5tdee7wnvs" path="res://ui/main_theme.tres" id="1_coc3r"]
+[ext_resource type="Script" path="res://ui/volume_slider.gd" id="2_q7k5k"]
+
+[node name="VolumeSlider" type="HSlider"]
+offset_right = 192.0
+offset_bottom = 16.0
+theme = ExtResource("1_coc3r")
+max_value = 1.0
+step = 0.1
+value = 0.5
+script = ExtResource("2_q7k5k")

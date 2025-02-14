@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://dc0eiutropwhr"]
+
+[ext_resource type="Script" path="res://objets/win.gd" id="1_rq8v5"]
+[ext_resource type="Texture2D" uid="uid://bqiewu0q34h4t" path="res://素材/PixelFantasy_Caves_1.0/mainlev_build.png" id="2_i0153"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pnvgp"]
+size = Vector2(48, 64)
+
+[node name="windoor" type="Area2D"]
+script = ExtResource("1_rq8v5")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -32)
+texture = ExtResource("2_i0153")
+region_enabled = true
+region_rect = Rect2(960, 16, 48, 64)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -32)
+shape = SubResource("RectangleShape2D_pnvgp")

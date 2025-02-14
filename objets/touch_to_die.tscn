@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://btj4yrl0fefxv"]
+
+[ext_resource type="Texture2D" uid="uid://bqiewu0q34h4t" path="res://素材/PixelFantasy_Caves_1.0/mainlev_build.png" id="1_pv26m"]
+[ext_resource type="Script" path="res://classes/must_die.gd" id="2_nal76"]
+
+[node name="TouchToDie" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -8)
+texture = ExtResource("1_pv26m")
+region_enabled = true
+region_rect = Rect2(749, 288, 24, 16)
+
+[node name="MustDie" type="RayCast2D" parent="."]
+target_position = Vector2(0, -16)
+collision_mask = 2
+script = ExtResource("2_nal76")
+
+[node name="MustDie2" type="RayCast2D" parent="."]
+target_position = Vector2(0, -16)
+collision_mask = 2
+script = ExtResource("2_nal76")
+
+[node name="MustDie3" type="RayCast2D" parent="."]
+target_position = Vector2(0, -16)
+collision_mask = 2
+script = ExtResource("2_nal76")

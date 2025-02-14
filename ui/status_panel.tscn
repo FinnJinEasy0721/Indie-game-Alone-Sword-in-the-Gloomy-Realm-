@@ -1,0 +1,70 @@
+[gd_scene load_steps=11 format=3 uid="uid://cgkv4ar6id2lu"]
+
+[ext_resource type="Script" path="res://ui/status_panel.gd" id="1_15bln"]
+[ext_resource type="Texture2D" uid="uid://qvl3ml1m4x8f" path="res://素材/Pxiel Art UI borders.png" id="1_20e6a"]
+[ext_resource type="Texture2D" uid="uid://davdticjjdxcl" path="res://素材/Characters Pack/Without Outline/WarriorMan-Sheet.png" id="2_gsxi3"]
+[ext_resource type="Texture2D" uid="uid://tf7lkexonmdw" path="res://素材/Wenrexa Interface UI KIT #4/PNG/ProgressBar_05/BarV5_ProgressBarBorder.png" id="3_37v10"]
+[ext_resource type="Texture2D" uid="uid://im6772skp0md" path="res://素材/Wenrexa Interface UI KIT #4/PNG/ProgressBar_05/BarV5_ProgressBar.png" id="5_vewy1"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_rnna0"]
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+texture = ExtResource("1_20e6a")
+region_rect = Rect2(17, 17, 94, 94)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pncf8"]
+atlas = ExtResource("2_gsxi3")
+region = Rect2(520, 85, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hysfq"]
+atlas = ExtResource("3_37v10")
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_m17i6"]
+load_path = "res://.godot/imported/BarV3_ProgressBar.png-6f9ab2ab28db531e73c12b98d70737fc.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rsuh7"]
+atlas = SubResource("CompressedTexture2D_m17i6")
+
+[node name="StatusPanel" type="HBoxContainer"]
+offset_right = 310.0
+offset_bottom = 31.0
+script = ExtResource("1_15bln")
+
+[node name="AvatarBox" type="PanelContainer" parent="."]
+custom_minimum_size = Vector2(26, 26)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_rnna0")
+
+[node name="Avatar" type="TextureRect" parent="AvatarBox"]
+layout_mode = 2
+texture = SubResource("AtlasTexture_pncf8")
+stretch_mode = 5
+
+[node name="HealthBar" type="TextureProgressBar" parent="."]
+layout_mode = 2
+size_flags_vertical = 4
+max_value = 1.0
+step = 0.0
+value = 0.8
+texture_over = SubResource("AtlasTexture_hysfq")
+texture_progress = SubResource("AtlasTexture_rsuh7")
+texture_progress_offset = Vector2(4, 5)
+
+[node name="EasedHealthBar" type="TextureProgressBar" parent="HealthBar"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 1.0
+offset_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 4
+max_value = 1.0
+step = 0.0
+value = 1.0
+texture_progress = ExtResource("5_vewy1")
+texture_progress_offset = Vector2(4, 4)

@@ -1,0 +1,60 @@
+[gd_resource type="Theme" load_steps=10 format=3 uid="uid://d2p5tdee7wnvs"]
+
+[ext_resource type="Texture2D" uid="uid://cyag06nkej7cq" path="res://素材/1-bit_UI_byBatuhanK.png" id="1_ubq53"]
+[ext_resource type="Texture2D" uid="uid://c1glnhlssmc73" path="res://素材/UI and tools.png" id="2_dbi53"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_djeqx"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t1fk2"]
+atlas = ExtResource("1_ubq53")
+region = Rect2(110, 206, 14, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fj611"]
+atlas = ExtResource("1_ubq53")
+region = Rect2(92, 206, 14, 14)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2nhvy"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_lax53"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_cenjg"]
+texture = ExtResource("1_ubq53")
+texture_margin_left = 51.0
+texture_margin_top = 2.0
+texture_margin_right = 51.0
+texture_margin_bottom = 2.0
+region_rect = Rect2(90, 171, 106, 8)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6ia58"]
+content_margin_left = 16.0
+content_margin_top = 4.0
+content_margin_right = 16.0
+content_margin_bottom = 4.0
+texture = ExtResource("2_dbi53")
+texture_margin_left = 6.0
+texture_margin_top = 6.0
+texture_margin_right = 6.0
+texture_margin_bottom = 6.0
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+region_rect = Rect2(159, 31, 21, 21)
+
+[resource]
+Button/colors/font_outline_color = Color(0.293719, 0.21175, 0.574675, 1)
+Button/colors/font_pressed_color = Color(1, 1, 1, 0.537255)
+Button/constants/outline_size = 6
+Button/styles/disabled = SubResource("StyleBoxEmpty_djeqx")
+Button/styles/hover = SubResource("StyleBoxEmpty_djeqx")
+Button/styles/normal = SubResource("StyleBoxEmpty_djeqx")
+Button/styles/pressed = SubResource("StyleBoxEmpty_djeqx")
+HSlider/icons/grabber = SubResource("AtlasTexture_t1fk2")
+HSlider/icons/grabber_highlight = SubResource("AtlasTexture_fj611")
+HSlider/styles/grabber_area = SubResource("StyleBoxEmpty_2nhvy")
+HSlider/styles/grabber_area_highlight = SubResource("StyleBoxEmpty_lax53")
+HSlider/styles/slider = SubResource("StyleBoxTexture_cenjg")
+Label/colors/font_shadow_color = Color(0, 0, 0, 0.431373)
+PanelContainer/styles/panel = SubResource("StyleBoxTexture_6ia58")
