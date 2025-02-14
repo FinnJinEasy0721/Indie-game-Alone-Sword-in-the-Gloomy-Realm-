@@ -6,7 +6,7 @@
 场景文件的素材均来自https://itch.io 网站的开源作者
 
 ***特别感谢***
-itch开源游戏资产作者 和 bilibili：@timothyqiu和@码客二十二
+itch开源游戏资产作者 和 bilibili：@timothyqiu @码客二十二
 
 禁止以盈利为目的二次修改和分发
 
@@ -17,7 +17,7 @@ You can open my project with the Godot game engine. The files with the ".gd" suf
 The materials in the scene files are all from open - source authors on the website https://itch.io.
 
 Special thanks
-To the open - source game asset authors on itch.io, and to @timothyqiu and @MakeCoder22 on Bilibili.
+To the open - source game asset authors on itch.io, and to @timothyqiu and @码客二十二 on Bilibili.
 
 Any secondary modification and distribution for profit are prohibited.
 
