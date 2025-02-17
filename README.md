@@ -1,23 +1,10 @@
 # -Alone-Sword-in-the-Gloomy-Realm-
-这是使用Godot游戏引擎编写的2D横板格斗闯关独立游戏，作者是一名在校大学生，利用寒假时间耗时约60小时完成。目前该游戏的第一关和后续关卡框架已经搭建完成，敌人模板也已经ok
-
-你可以使用Godot游戏引擎打开我的项目，gd后缀的是代码文件，tscn后缀是场景文件
+欢迎访问《晦境孤剑：残玉为王》独立游戏项目工程文件，此项目仅包含代码和场景文件，不包含素材文件和配置文件（上传数量超过了限制）
 
 场景文件的素材均来自https://itch.io 网站的开源作者
 
+这是由Godot游戏引擎编写的2D横板格斗闯关独立游戏，作者是一名在校大学生，利用寒假时间耗时约60小时完成（后续仍在更新）。
+您可以使用我的所有源代码（代码文件有部分注释）去开发您的游戏，如果可以请帮我点亮star，万分感谢！！！
+
 ***特别感谢***
 itch开源游戏资产作者 和 bilibili：@timothyqiu @码客二十二
-
-禁止以盈利为目的二次修改和分发
-
-This is a 2D side - scrolling fighting and level - clearing indie game developed using the Godot game engine. The author is a college student who spent approximately 60 hours during the winter vacation to complete it. Currently, the first level and the frameworks of subsequent levels of this game have been set up, and the enemy templates are also ready.
-
-You can open my project with the Godot game engine. The files with the ".gd" suffix are code files, and those with the ".tscn" suffix are scene files.
-
-The materials in the scene files are all from open - source authors on the website https://itch.io.
-
-Special thanks
-To the open - source game asset authors on itch.io, and to @timothyqiu and @码客二十二 on Bilibili.
-
-Any secondary modification and distribution for profit are prohibited.
-
