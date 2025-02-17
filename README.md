@@ -8,3 +8,13 @@
 
 ***特别感谢***
 itch开源游戏资产作者 和 bilibili：@timothyqiu @码客二十二
+
+Welcome to the project engineering files of the indie game "***Alone Sword in the Gloomy Realm: The Broken Jade Reigns Supreme***". This project only includes code and scene files, excluding material files and configuration files (due to exceeding the upload limit).
+
+The materials for the scene files are all from open - source authors on the website https://itch.io.
+
+This is a 2D side - scrolling fighting and level - passing indie game developed with the Godot game engine. The author, a college student, spent approximately 60 hours during the winter vacation to complete it (and it is still being updated).
+You can use all my source code (with some annotations in the code files) to develop your own game. If possible, please give me a star. Thank you so much!
+
+***Special Thanks***
+Open - source game asset authors on itch.io and @timothyqiu @码客二十二 on Bilibili(https://www.bilibili.com/)
