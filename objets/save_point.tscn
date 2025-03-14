@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://m80lghg7tjw6"]
 
-[ext_resource type="Script" path="res://objets/save_point.gd" id="1_dw8iw"]
+[ext_resource type="Script" uid="uid://cyhq2w1hl3sd7" path="res://objets/save_point.gd" id="1_dw8iw"]
 [ext_resource type="Texture2D" uid="uid://bw6eoiigeilah" path="res://素材/Dungeon Tile Set.png" id="2_i0o72"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vq8dm"]
@@ -217,8 +217,8 @@ tracks/7/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_cw1m6"]
 _data = {
-"RESET": SubResource("Animation_ylk4x"),
-"activated": SubResource("Animation_ov6qn")
+&"RESET": SubResource("Animation_ylk4x"),
+&"activated": SubResource("Animation_ov6qn")
 }
 
 [node name="SavePoint" type="Area2D"]
@@ -257,5 +257,5 @@ texture_scale = 0.52
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
-"": SubResource("AnimationLibrary_cw1m6")
+&"": SubResource("AnimationLibrary_cw1m6")
 }

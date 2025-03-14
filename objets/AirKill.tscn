@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cb88n3smhx8y1"]
+
+[ext_resource type="Script" uid="uid://cyge1ktial04i" path="res://objets/TouchToDie.gd" id="1_s8y6j"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mp5ja"]
+size = Vector2(481, 10.5)
+
+[node name="AirKill" type="Area2D"]
+collision_layer = 8
+collision_mask = 7
+script = ExtResource("1_s8y6j")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_mp5ja")

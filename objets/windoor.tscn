@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://dc0eiutropwhr"]
 
-[ext_resource type="Script" path="res://objets/win.gd" id="1_rq8v5"]
+[ext_resource type="Script" uid="uid://b063es7dqa0nl" path="res://objets/win.gd" id="1_rq8v5"]
 [ext_resource type="Texture2D" uid="uid://bqiewu0q34h4t" path="res://素材/PixelFantasy_Caves_1.0/mainlev_build.png" id="2_i0153"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pnvgp"]

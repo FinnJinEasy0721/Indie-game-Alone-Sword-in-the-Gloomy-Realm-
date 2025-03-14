@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://btj4yrl0fefxv"]
+
+[ext_resource type="Script" uid="uid://cyge1ktial04i" path="res://objets/TouchToDie.gd" id="1_3amql"]
+[ext_resource type="Texture2D" uid="uid://bqiewu0q34h4t" path="res://素材/PixelFantasy_Caves_1.0/mainlev_build.png" id="1_pv26m"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_y2m0g"]
+size = Vector2(22, 10)
+
+[node name="SpikeTrap" type="Area2D"]
+collision_layer = 8
+collision_mask = 7
+script = ExtResource("1_3amql")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -8)
+texture = ExtResource("1_pv26m")
+region_enabled = true
+region_rect = Rect2(749, 288, 24, 16)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -5)
+shape = SubResource("RectangleShape2D_y2m0g")
